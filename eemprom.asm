@@ -298,6 +298,7 @@ out_bit:
 ;Delays=================================================================
 delay:
 	in int_m,SREG		;Guardo status register
+	
 	ldi  r21, 20
 	ldi  r22, 20
 L1: dec  r22
